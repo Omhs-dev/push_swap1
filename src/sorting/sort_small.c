@@ -6,7 +6,7 @@
 /*   By: ohamadou <ohamadou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 20:37:12 by ohamadou          #+#    #+#             */
-/*   Updated: 2023/04/30 15:03:38 by ohamadou         ###   ########.fr       */
+/*   Updated: 2023/06/03 16:28:12 by ohamadou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,8 +37,8 @@ void	sort_three(t_stack **stack)
 	high = high_index(*stack);
 	if ((*stack)-> index == high)
 		rotate_a(stack);
-	else if ((*stack)-> next -> index == high)
+	if ((*stack)-> next -> index == high)
 		reverse_rotate_a(stack);
-	else if ((*stack)-> index > (*stack)->next -> index)
+	if ((*stack)-> index > (*stack)->next -> index)
 		swap_a(stack);
 }

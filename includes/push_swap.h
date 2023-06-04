@@ -6,7 +6,7 @@
 /*   By: ohamadou <ohamadou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/10 13:28:43 by ohamadou          #+#    #+#             */
-/*   Updated: 2023/04/30 14:59:50 by ohamadou         ###   ########.fr       */
+/*   Updated: 2023/06/04 03:36:25 by ohamadou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,5 +95,6 @@ int		sort_checked(t_stack *stack);
 
 void	free_stack(t_stack **stack);
 void	exit_error(t_stack **stack_a, t_stack **stack_b);
+// void parse_multiple_args(int argc, char **argv, t_stack *ps);
 
 #endif

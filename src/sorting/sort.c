@@ -6,7 +6,7 @@
 /*   By: ohamadou <ohamadou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 20:50:14 by ohamadou          #+#    #+#             */
-/*   Updated: 2023/04/30 15:05:53 by ohamadou         ###   ########.fr       */
+/*   Updated: 2023/06/04 02:15:25 by ohamadou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,4 +79,5 @@ void	sort(t_stack **stack_a, t_stack **stack_b)
 	}
 	if (!sort_checked(*stack_a))
 		turn_stack(stack_a);
+	return ;
 }

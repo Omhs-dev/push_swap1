@@ -6,7 +6,7 @@
 /*   By: ohamadou <ohamadou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 06:52:53 by ohamadou          #+#    #+#             */
-/*   Updated: 2023/04/30 08:30:59 by ohamadou         ###   ########.fr       */
+/*   Updated: 2023/06/04 02:52:45 by ohamadou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,5 +35,5 @@ void	exit_error(t_stack **stack_a, t_stack **stack_b)
 	if (stack_b == NULL || *stack_b != NULL)
 		free_stack(stack_b);
 	write(2, "Error\n", 6);
-	exit (1);
+	// exit (EXIT_FAILURE);
 }

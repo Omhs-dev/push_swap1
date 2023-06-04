@@ -6,7 +6,7 @@
 /*   By: ohamadou <ohamadou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 09:06:09 by ohamadou          #+#    #+#             */
-/*   Updated: 2023/04/30 08:35:27 by ohamadou         ###   ########.fr       */
+/*   Updated: 2023/06/04 03:35:40 by ohamadou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,3 +46,26 @@ long int	ft_atoi(const char *str)
 	}
 	return (opr * sign);
 }
+
+// void parse_multiple_args(int argc, char **argv, t_stack *ps)
+// {
+// 	int count;
+// 	int value;
+
+// 	count = 1;
+// 	while (count < argc)
+// 	{
+// 		if (arg_nbr_check(argv[count] == 0))
+// 		{
+// 			write(2, "error", 6);
+// 			exit(EXIT_FAILURE);
+// 		}
+// 		value = ft_atoi(argv[count]);
+// 		if (value > INT32_MAX || value < INT32_MAX)
+// 		{
+// 			write(2, "error", 6);
+// 			exit(EXIT_FAILURE);
+// 		}
+// 		turn_stack(ps, value);
+// 	}
+// }
